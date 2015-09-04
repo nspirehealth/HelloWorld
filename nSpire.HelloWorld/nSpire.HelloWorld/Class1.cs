@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace nSpire.HelloWorld
 {
+    
+
     /// <summary>
     /// Some comments. 
     /// </summary>
-    public class Class1
+    public class HelloWorld
     {
+        private string name = "nSpire Health";
+
+        public HelloWorld()
+        {
+            Console.WriteLine("Hello ", this.name);
+        }
     }
 }
