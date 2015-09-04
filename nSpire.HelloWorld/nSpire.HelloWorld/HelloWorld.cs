@@ -15,6 +15,9 @@ namespace nSpire.HelloWorld
     {
         private string name = "nSpire Health";
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="HelloWorld"/> class.
+        /// </summary>
         public HelloWorld()
         {
             Console.WriteLine("Hello ", this.name);
